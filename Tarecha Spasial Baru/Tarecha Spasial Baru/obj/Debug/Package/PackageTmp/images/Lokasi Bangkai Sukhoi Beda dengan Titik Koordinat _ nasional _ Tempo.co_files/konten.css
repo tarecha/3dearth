@@ -1,0 +1,220 @@
+@charset "utf-8";
+/* CSS Document */
+.blok-logo-konten{float:left; width:auto; margin:0; padding:0;}
+.logo-co-konten{height:auto; margin-left:0px;}
+.logo-kanal{height:auto; margin-top:2px;}
+/* INDEX */
+.index-icon{height:16px; float:right; text-align:right; z-index:9000; top:5px; position:absolute; margin-left:134px;}
+.index-icon a{opacity:0.9;filter:alpha(opacity=40);}
+.index-icon a:hover{opacity:0.7; filter:alpha(opacity=100);}
+
+.index-teks{text-align:right; font-weight:bold; font-size:10px;}
+.index-teks a{ color:#777;}
+.index-teks a:hover{color:#666;}
+
+/*ARTIKEL YANG ADA DI BODY BERITA */
+li.bullet{background-position:-14px -52px;padding:2px 0 2px 18px}
+li.bullet,.share,.print,.mail,.fontBesar,.fontKecil,.fontReset,.fb_share_link,.twitter{background:url(../images/allnonkanal.png) no-repeat}
+.zoom-font {font-size:11px; margin:10px 0px 10px 0px;}
+#content .content-inner {position:relative;width:100%}
+.gantiFont {position:absolute;top:-2px;right:0;font-size:11px;}
+.fontBesar,.fontKecil,.fontReset,.print,.mail,.share{width:28px;line-height:22px; }
+
+.fontBesar,.fontKecil,.fontReset{margin-left:5px;padding:0 0 0 14px;}
+.fontBesar{background-position:-14px -412px}
+.fontKecil{background-position:-14px -452px}
+.fontReset{background-position:-13px -542px}
+.artikel {margin:0px 0px 20px 0px; float:left;}
+.artikel h1 {color:#2D648A;margin-top:5px}
+.artikel p {font-size:14px; line-height:22px;}
+
+/* NAVIGATOR SITUS */ 
+#blok-sitemap{width:475px; font-size:11px; font-weight:bold; font-family:Arial , Helvetica, sans-serif;}
+.site-map{background:url(../images/panah-map.png) top left no-repeat;font-size:12px; font-weight:bold; font-family:Arial , Helvetica, sans-serif; color:#666; height: 20px;}
+.site-map a{color:#666; margin-left:10px; top-bottom:-5px; margin-right:5px;}
+.site-map a:hover{color:#000;}
+
+.home-map{font-size:12px; font-weight:bold; font-family:Arial , Helvetica, sans-serif; color:#666; height:20px;}
+.home-map a{color:#666;top-bottom:-5px; margin-right:5px;}
+.home-map a:hover{color:#000;}
+
+/*FOTO HEADLINE ARTIKEL BERITA */
+.foto-hl-besar{color:#999;}
+.foto-hl-besar p{line-height:normal; font-size:11px;}
+.foto-hl-besar{float:left;margin:0px 0px 10px 0px;}
+.foto-hl-besar,.foto-hl-besar .crop,.foto-hl-besar .crop img{width:475px;}
+/* SHARE */
+#blok-share{height:30px; border-bottom:1px dotted #ddd; border-top:1px solid #ddd; float:left; width:100%; margin:0px 0px 10px 0px;
+	background-color:#ededed; 
+ 	background-image: -moz-linear-gradient(top, #ededed 0%, #ffffff 100%); 
+ 	background-image: -webkit-linear-gradient(top, #ededed 0%, #ffffff 100%); 
+ 	background-image: -o-linear-gradient(top, #ededed 0%, #ffffff 100%); 
+ 	background-image: -ms-linear-gradient(top, #ededed 0% ,#ffffff 100%);
+	filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ededed', endColorstr='#ffffff')";
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ededed, endColorstr=#ffffff)"; 
+}
+.twitter-share{float:left; margin:0px 10px 0px 10px; text-align:right; margin:5px 5px 5px 5px;}
+.fb-share{float:left; margin:0px 10px 0px 10px; text-align:right;margin:5px 5px 5px 5px;}
+.google-share{float:left; margin:0px 10px 0px 10px; text-align:right;margin:5px -25px 5px 5px;}
+
+/*BERITA TERKAIT DI DALAM ARTIKEL BERITA */
+#terkait-dalam{width:150px; margin-left:20px; float:right; font-size:12px; margin-bottom:10px;}
+
+#terkait-video img, #terkait-foto img, #terkait-grafis img { width: 150px; height: 86px;overflow: hidden;}
+#terkait-video p, #terkait-foto p, #terkait-grafis p {line-height:normal; font-size:12px; margin:0;}
+
+.foto-pilihan {width:150px; margin:10px 11px 0px 0px;overflow:hidden; height:auto; float:left;}
+.foto-pilihan img {width:150px; height:86px; overflow:hidden; margin:0; padding:0;}
+.foto-pilihan p {margin:3px 0px; line-height:normal; font-size:11px; font-weight:bold;}
+
+/* KOMENTAR */
+.blok-komentar{display:block; overflow:hidden; margin-top:0px;}
+.blok-avatar{margin:5px 0; overflow:hidden;}
+.kom-avatar {width:48px; height:48px; overflow:hidden; display:block; margin-right:5px; float:left;}
+img.kom-avatar{width:48px; height:48px;}
+.name-avatar {margin-top:5px; font-size:12px; color:#333; font-weight:bold;}
+.font18 {font-size:16px; margin-top:5px;}
+.edit-avatar{margin:5px 0px; font-size:11px; font-weight:bold; float:left; margin-right:20px;}
+input.namakom {
+	margin:3px 5px 3px 0px;
+	padding:5px; 
+	height: 20px; 
+	width:60%; 
+	font-size: 12px;
+	border:1px solid #999; 
+	color: #333;
+	font-family: verdana, "Times New Roman","Garamond",Arial,Helvetica,sans-serif; 
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-shadow:rgba(0,0,0,0.1) 2px 2px inset;
+	-webkit-box-shadow:rgba(0,0,0,0.1) 2px 2px inset;
+	-moz-box-shadow:rgba(0,0,0,0.1) 2px 2px inset;
+	-o-box-shadow:rgba(0,0,0,0.1) 2px 2px inset;
+	-ms-box-shadow:rgba(0,0,0,0.1) 2px 2px inset;
+	-khtml-box-shadow:rgba(0,0,0,0.1) 2px 2px inset;
+	}
+input.emailkom {
+	margin:3px 5px 3px 0px;
+	padding:5px; 
+	height: 20px; 
+	width:60%; 
+	font-size: 12px;
+	border:1px solid #999; 
+	color: #333;
+	font-family: verdana, "Times New Roman","Garamond",Arial,Helvetica,sans-serif; 
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-shadow:rgba(0,0,0,0.1) 2px 2px inset;
+	-webkit-box-shadow:rgba(0,0,0,0.1) 2px 2px inset;
+	-moz-box-shadow:rgba(0,0,0,0.1) 2px 2px inset;
+	-o-box-shadow:rgba(0,0,0,0.1) 2px 2px inset;
+	-ms-box-shadow:rgba(0,0,0,0.1) 2px 2px inset;
+	-khtml-box-shadow:rgba(0,0,0,0.1) 2px 2px inset;
+
+	}
+textarea.isikom {
+	margin:5px 0;
+	padding:5px; 
+	height:100px; 
+	width:97%; 
+	font-size: 12px;
+	border:1px solid #999; 
+	color: #333;
+	font-family: verdana, "Times New Roman","Garamond",Arial,Helvetica,sans-serif; 
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-shadow:rgba(0,0,0,0.1) 2px 2px inset;
+	-webkit-box-shadow:rgba(0,0,0,0.1) 2px 2px inset;
+	-moz-box-shadow:rgba(0,0,0,0.1) 2px 2px inset;
+	-o-box-shadow:rgba(0,0,0,0.1) 2px 2px inset;
+	-ms-box-shadow:rgba(0,0,0,0.1) 2px 2px inset;
+	-khtml-box-shadow:rgba(0,0,0,0.1) 2px 2px inset;
+
+	}
+input.verkom {
+	margin:3px 5px 3px 0px;
+	padding:0px; 
+	height: 30px; 
+	width:105px; 
+	font-size: 14px;
+	border:1px solid #999;
+	font-weight:bold;
+	color: #333;
+	text-align:center;
+	font-family: verdana, "Times New Roman","Garamond",Arial,Helvetica,sans-serif; 
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-shadow:rgba(0,0,0,0.1) 2px 2px inset;
+	-webkit-box-shadow:rgba(0,0,0,0.1) 2px 2px inset;
+	-moz-box-shadow:rgba(0,0,0,0.1) 2px 2px inset;
+	-o-box-shadow:rgba(0,0,0,0.1) 2px 2px inset;
+	-ms-box-shadow:rgba(0,0,0,0.1) 2px 2px inset;
+	-khtml-box-shadow:rgba(0,0,0,0.1) 2px 2px inset;
+	}
+
+#kirimkom {
+	cursor:pointer;
+	width:50px;
+	height:20px;
+	font-size:11px;
+	color:#fff;
+	font-family:Verdana, Geneva, sans-serif;
+	border: 1px solid #999;
+	background:#999;
+	padding:3px 3px 3px 3px;
+	margin-top:10px;
+	}
+
+#kirimkom:hover {
+	background:#666;
+	border: 1px solid #666;
+	color:#fff;
+}
+
+
+.vercode{background:#333; color:#fff; margin:5px 0px 0px 0px; padding:5px; font-weight:bold; max-width:100px; text-align:center;}
+.blok-form{display:block; padding:10px; border-bottom:1px solid #ededed;  border-top:1px solid #ededed; background:#f9f9f9; margin-bottom:10px;}
+.blok-form-620{display:block; padding:10px 50px; border-bottom:1px solid #ededed;  border-top:1px solid #ededed; background:#f9f9f9; }
+.name-form{font-weight:bold; font-size:11px; text-transform:uppercase; color:#222;}
+.font-8{font-size:8px;}
+
+.baca-kom{display:block; padding:10px; border:1px solid #ededed; margin-bottom:10px; overflow:hidden; border-radius:6px; -moz-border-radius:6px; -webkit-border-radius:6px; -khtml-border-radius:6px; -o-border-radius:6px;}
+.baca-teks {margin-bottom:10px; font-size:12px; color:#666; display:block;}
+.baca-nama{margin-bottom:10px; font-size:12px; color:#444;text-transform:uppercase;}
+.jempol-up, .jempol-down{float:right; margin:2px; padding:2px; border:1px solid #ccc; border-radius:6px; -moz-border-radius:6px; -webkit-border-radius:6px; -khtml-border-radius:6px; -o-border-radius:6px;}
+.blok-kombawah{ display:block; margin-bottom:20px; overflow:hidden;}
+.baca-browser{font-size:10px;  float:left; text-transform:uppercase; color:#666;}
+.baca-replay{font-size:10px; float:right; text-transform:uppercase; color:#666;}
+
+.bales-kom{display:block; padding:10px; border:1px solid #ededed; background:#f9f9f9; margin-bottom:10px; overflow:hidden; border-radius:6px; -moz-border-radius:6px; -webkit-border-radius:6px; -khtml-border-radius:6px; -o-border-radius:6px;}
+
+/* BUTTON 1.2.3.4.5.dst */
+.blok-nb{text-align:center; display:block; padding:10px; border:1px solid #ededed; margin-bottom:10px; overflow:hidden;}
+.blok-nb a{padding:2px 4px 2px 4px; margin-right:3px; background:#ededed; color:#000; text-align:center; border:1px solid #ccc; }
+.blok-nb a:hover{background:#999; color:#fff;}
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}
+  
+#boxes .window {
+  position:fixed;
+  left:0;
+  top:0;
+  width:440px;
+  height:200px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+}
+
+#boxes #dialog {
+  width:550px; 
+  height:300px;
+  padding:10px;
+  background-color:#ffffff;
+}

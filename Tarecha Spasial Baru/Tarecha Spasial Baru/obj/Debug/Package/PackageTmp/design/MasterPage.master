@@ -1,0 +1,146 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head runat="server">
+    <!--
+    Created by Artisteer v3.1.0.46558
+    Base template (without user's data) checked by http://validator.w3.org : "This page is valid XHTML 1.0 Transitional"
+  -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>
+        <asp:ContentPlaceHolder ID="TitleContentPlaceHolder" runat="server">
+        </asp:ContentPlaceHolder>
+    </title>
+    <link rel="stylesheet" href="~/style.css" type="text/css" media="screen" />
+    <link rel="shortcut icon" href="<%= ResolveUrl("~/images/iconGunung.png") %>" type="image/x-icon" />
+    <!--[if IE 6]><link rel="stylesheet" href="~/style.ie6.css" type="text/css" media="screen" /><![endif]-->
+    <!--[if IE 7]><link rel="stylesheet" href="~/style.ie7.css" type="text/css" media="screen" /><![endif]-->
+    <asp:ContentPlaceHolder ID="ScriptIncludePlaceHolder" runat="server">
+        <script type="text/javascript" src="<%= ResolveUrl("~/jquery.js") %>"></script>
+        <script type="text/javascript" src="<%= ResolveUrl("~/script.js") %>"></script>
+    </asp:ContentPlaceHolder>
+    <meta property="fb:admins" content="tarecha" />
+</head>
+<body onload="scrlsts()">
+    <form id="form1" runat="server">
+    <div id="art-main">
+        <div class="cleared reset-box">
+        </div>
+        <div class="art-box art-sheet">
+            <div class="art-box-body art-sheet-body">
+                <div class="art-bar art-nav">
+                    <div class="art-nav-outer">
+                        <asp:ContentPlaceHolder ID="MenuContentPlaceHolder" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+                <div class="cleared reset-box">
+                </div>
+                <div class="art-layout-wrapper">
+                    <div class="art-content-layout">
+                        <div class="art-content-layout-row">
+                            <div class="art-layout-cell art-sidebar1">
+                                <asp:ContentPlaceHolder ID="Sidebar1ContentPlaceHolder" runat="server">
+                                </asp:ContentPlaceHolder>
+                                <div class="cleared">
+                                </div>
+                            </div>
+                            <div class="art-layout-cell art-content">
+                                <asp:ContentPlaceHolder ID="SheetContentPlaceHolder" runat="server">
+                                </asp:ContentPlaceHolder>
+                                <div class="cleared">
+                                </div>
+                            </div>
+                            <div class="art-layout-cell art-sidebar2">
+                                <asp:ContentPlaceHolder ID="Sidebar2ContentPlaceHolder" runat="server">
+                                </asp:ContentPlaceHolder>
+                                <div class="cleared">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cleared">
+                </div>
+                <div class="art-footer">
+                    <div class="art-footer-body">
+                        <div class="art-footer-text">
+                            Skripsi Visualisasi 3D Rupa Bumi Berbasis Data GDEM ASTER 30 Meter<br />
+                            Oleh <a href="http://tarecha.wordpress.com">Mochamad Agung Tarecha</a><br />
+                            <a href="http://uin-malang.ac.id">UIN Mulana Malik Ibrahim Malang</a>
+                        </div>
+                        <div class="cleared">
+                        </div>
+                    </div>
+                </div>
+                <div class="cleared">
+                </div>
+            </div>
+        </div>
+        <div class="cleared">
+        </div>
+        <p class="art-page-footer">
+        </p>
+        <div class="cleared">
+        </div>
+    </div>
+    </form>
+</body>
+<script type="text/javascript">
+
+    var scrl = "..:::..Earth 3D - Topography maps on your hand";
+    function scrlsts() {
+        scrl = scrl.substring(1, scrl.length) + scrl.substring(0, 1);
+        document.title = scrl;
+        setTimeout("scrlsts()", 100);
+    }
+
+</script>
+<script type="text/javascript">
+    var iframe = document.getElementsByTagName('iframe')[0];
+    iDoc = iframe.contentWindow     // sometimes glamorous naming of variable
+        || iframe.contentDocument;  // makes your code working :)
+    if (iDoc.document) {
+        iDoc = iDoc.document;
+        iDoc.body.addEventListener("touchstart", touchHandler, true);
+        iDoc.body.addEventListener("touchmove", touchHandler, true);
+        iDoc.body.addEventListener("touchend", touchHandler, true);
+        iDoc.body.addEventListener("touchcancel", touchHandler, true);
+    };
+
+
+    function touchHandler(event) {
+        var touches = event.changedTouches,
+        first = touches[0],
+        type = "";
+        switch (event.type) {
+            case "touchstart": type = "mousedown"; break;
+            case "touchmove": type = "mousemove"; break;
+            case "touchend": type = "mouseup"; break;
+            default: return;
+        }
+
+        //initMouseEvent(type, canBubble, cancelable, view, clickCount, 
+        //           screenX, screenY, clientX, clientY, ctrlKey, 
+        //           altKey, shiftKey, metaKey, button, relatedTarget);
+
+        var simulatedEvent = document.createEvent("MouseEvent");
+        simulatedEvent.initMouseEvent(type, true, true, window, 1,
+                              first.screenX, first.screenY,
+                              first.clientX, first.clientY, false,
+                              false, false, false, 0/*left*/, null);
+
+        first.target.dispatchEvent(simulatedEvent);
+        simulatedEvent.initMouseEvent("mouseover", true, true, window, 1,
+                              first.screenX, first.screenY,
+                              first.clientX, first.clientY, false,
+                              false, false, false, 0/*left*/, null);
+        first.target.dispatchEvent(simulatedEvent);
+        event.preventDefault();
+    }
+
+    
+  
+</script>
+</html>

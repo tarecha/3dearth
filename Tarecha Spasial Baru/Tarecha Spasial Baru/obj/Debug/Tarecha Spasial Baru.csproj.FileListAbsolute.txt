@@ -1,0 +1,10 @@
+G:\tarecha_spasial\Tarecha Spasial Baru\Tarecha Spasial Baru\bin\Tarecha Spasial Baru.dll
+G:\tarecha_spasial\Tarecha Spasial Baru\Tarecha Spasial Baru\bin\Tarecha Spasial Baru.pdb
+G:\tarecha_spasial\Tarecha Spasial Baru\Tarecha Spasial Baru\bin\ITarechaSpatial.dll
+G:\tarecha_spasial\Tarecha Spasial Baru\Tarecha Spasial Baru\bin\MWArray.dll
+G:\tarecha_spasial\Tarecha Spasial Baru\Tarecha Spasial Baru\bin\TarechaSpatial.dll
+G:\tarecha_spasial\Tarecha Spasial Baru\Tarecha Spasial Baru\bin\WebFiguresService.dll
+G:\tarecha_spasial\Tarecha Spasial Baru\Tarecha Spasial Baru\bin\MWArray.xml
+G:\tarecha_spasial\Tarecha Spasial Baru\Tarecha Spasial Baru\obj\Debug\Tarecha Spasial Baru.csprojResolveAssemblyReference.cache
+G:\tarecha_spasial\Tarecha Spasial Baru\Tarecha Spasial Baru\obj\Debug\Tarecha Spasial Baru.dll
+G:\tarecha_spasial\Tarecha Spasial Baru\Tarecha Spasial Baru\obj\Debug\Tarecha Spasial Baru.pdb
