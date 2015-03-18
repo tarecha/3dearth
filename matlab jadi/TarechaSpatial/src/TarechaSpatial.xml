@@ -1,0 +1,2666 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TarechaSpatial</name>
+    </assembly>
+    <members>
+        <member name="T:TarechaSpatial.TarechaSpatial">
+            <summary>
+            The TarechaSpatial class provides a CLS compliant, MWArray interface to the
+            M-functions contained in the files:
+            <newpara></newpara>
+            G:\tarecha_spasial\matlab jadi\batasMatrixKecil.m
+            <newpara></newpara>
+            G:\tarecha_spasial\matlab jadi\bersihkanMemory.m
+            <newpara></newpara>
+            G:\tarecha_spasial\matlab jadi\generatefile.m
+            <newpara></newpara>
+            G:\tarecha_spasial\matlab jadi\generatePohon.m
+            <newpara></newpara>
+            G:\tarecha_spasial\matlab jadi\generatePohonKelapa.m
+            <newpara></newpara>
+            G:\tarecha_spasial\matlab jadi\interpolasiLinier.m
+            <newpara></newpara>
+            G:\tarecha_spasial\matlab jadi\mapping.m
+            <newpara></newpara>
+            G:\tarecha_spasial\matlab jadi\mappingMatrixtoNearestCoordinat.m
+            <newpara></newpara>
+            G:\tarecha_spasial\matlab jadi\mappingObjek.m
+            <newpara></newpara>
+            G:\tarecha_spasial\matlab jadi\normalisasi.m
+            <newpara></newpara>
+            G:\tarecha_spasial\matlab jadi\pilih.m
+            <newpara></newpara>
+            G:\tarecha_spasial\matlab jadi\seleksiBF.m
+            <newpara></newpara>
+            G:\tarecha_spasial\matlab jadi\seleksiRHD.m
+            <newpara></newpara>
+            G:\tarecha_spasial\matlab jadi\visualisasiDuaInputan.m
+            <newpara></newpara>
+            G:\tarecha_spasial\matlab jadi\visualisasiRadius.m
+            <newpara></newpara>
+            deployprint.m
+            <newpara></newpara>
+            printdlg.m
+            </summary>
+            <remarks>
+            @Version 2.0
+            </remarks>
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.#cctor">
+            <summary internal= "true">
+            The static constructor instantiates and initializes the MATLAB Compiler Runtime
+            instance.
+            </summary>
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.#ctor">
+            <summary>
+            Constructs a new instance of the TarechaSpatial class.
+            </summary>
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.Finalize">
+            <summary internal= "true">
+            Class destructor called by the CLR garbage collector.
+            </summary>
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.Dispose">
+            <summary>
+            Frees the native resources associated with this object
+            </summary>
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.Dispose(System.Boolean)">
+            <summary internal= "true">
+            Internal dispose function
+            </summary>
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.batasMatrixKecil">
+             <summary>
+             Provides a single output, 0-input MWArrayinterface to the batasMatrixKecil
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.batasMatrixKecil(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 1-input MWArrayinterface to the batasMatrixKecil
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="latitude">Input argument #1</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.batasMatrixKecil(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 2-input MWArrayinterface to the batasMatrixKecil
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="latitude">Input argument #1</param>
+             <param name="longitude">Input argument #2</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.batasMatrixKecil(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 3-input MWArrayinterface to the batasMatrixKecil
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="latitude">Input argument #1</param>
+             <param name="longitude">Input argument #2</param>
+             <param name="radiusBaris">Input argument #3</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.batasMatrixKecil(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 4-input MWArrayinterface to the batasMatrixKecil
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="latitude">Input argument #1</param>
+             <param name="longitude">Input argument #2</param>
+             <param name="radiusBaris">Input argument #3</param>
+             <param name="radiusKolom">Input argument #4</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.batasMatrixKecil(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 5-input MWArrayinterface to the batasMatrixKecil
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="latitude">Input argument #1</param>
+             <param name="longitude">Input argument #2</param>
+             <param name="radiusBaris">Input argument #3</param>
+             <param name="radiusKolom">Input argument #4</param>
+             <param name="interval">Input argument #5</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.batasMatrixKecil(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the batasMatrixKecil
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.batasMatrixKecil(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the batasMatrixKecil
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="latitude">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.batasMatrixKecil(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the batasMatrixKecil
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="latitude">Input argument #1</param>
+             <param name="longitude">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.batasMatrixKecil(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 3-input MWArray interface to the batasMatrixKecil
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="latitude">Input argument #1</param>
+             <param name="longitude">Input argument #2</param>
+             <param name="radiusBaris">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.batasMatrixKecil(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 4-input MWArray interface to the batasMatrixKecil
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="latitude">Input argument #1</param>
+             <param name="longitude">Input argument #2</param>
+             <param name="radiusBaris">Input argument #3</param>
+             <param name="radiusKolom">Input argument #4</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.batasMatrixKecil(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 5-input MWArray interface to the batasMatrixKecil
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="latitude">Input argument #1</param>
+             <param name="longitude">Input argument #2</param>
+             <param name="radiusBaris">Input argument #3</param>
+             <param name="radiusKolom">Input argument #4</param>
+             <param name="interval">Input argument #5</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.batasMatrixKecil(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray[]@,MathWorks.MATLAB.NET.Arrays.MWArray[])">
+             <summary>
+             Provides an interface for the batasMatrixKecil function in which the input and
+             output
+             arguments are specified as an array of MWArrays.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of MWArray output arguments</param>
+             <param name= "argsIn">Array of MWArray input arguments</param>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.bersihkanMemory">
+             <summary>
+             Provides a void output, 0-input MWArrayinterface to the bersihkanMemory
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.bersihkanMemory(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the bersihkanMemory
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatefile">
+             <summary>
+             Provides a single output, 0-input MWArrayinterface to the generatefile
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             {
+             </remarks>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatefile(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 1-input MWArrayinterface to the generatefile
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             {
+             </remarks>
+             <param name="latitude">Input argument #1</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatefile(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 2-input MWArrayinterface to the generatefile
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             {
+             </remarks>
+             <param name="latitude">Input argument #1</param>
+             <param name="longitude">Input argument #2</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatefile(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the generatefile M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             {
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatefile(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the generatefile M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             {
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="latitude">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatefile(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the generatefile M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             {
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="latitude">Input argument #1</param>
+             <param name="longitude">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatefile(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray[]@,MathWorks.MATLAB.NET.Arrays.MWArray[])">
+             <summary>
+             Provides an interface for the generatefile function in which the input and output
+             arguments are specified as an array of MWArrays.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             {
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of MWArray output arguments</param>
+             <param name= "argsIn">Array of MWArray input arguments</param>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatePohon">
+             <summary>
+             Provides a void output, 0-input MWArrayinterface to the generatePohon M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Batang
+             </remarks>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatePohon(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 1-input MWArrayinterface to the generatePohon M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Batang
+             </remarks>
+             <param name="baris">Input argument #1</param>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatePohon(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 2-input MWArrayinterface to the generatePohon M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Batang
+             </remarks>
+             <param name="baris">Input argument #1</param>
+             <param name="kolom">Input argument #2</param>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatePohon(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 3-input MWArrayinterface to the generatePohon M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Batang
+             </remarks>
+             <param name="baris">Input argument #1</param>
+             <param name="kolom">Input argument #2</param>
+             <param name="tinggi">Input argument #3</param>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatePohon(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 4-input MWArrayinterface to the generatePohon M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Batang
+             </remarks>
+             <param name="baris">Input argument #1</param>
+             <param name="kolom">Input argument #2</param>
+             <param name="tinggi">Input argument #3</param>
+             <param name="resolusi">Input argument #4</param>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatePohon(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 5-input MWArrayinterface to the generatePohon M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Batang
+             </remarks>
+             <param name="baris">Input argument #1</param>
+             <param name="kolom">Input argument #2</param>
+             <param name="tinggi">Input argument #3</param>
+             <param name="resolusi">Input argument #4</param>
+             <param name="figur">Input argument #5</param>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatePohon(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the generatePohon M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Batang
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatePohon(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the generatePohon M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Batang
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="baris">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatePohon(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the generatePohon M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Batang
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="baris">Input argument #1</param>
+             <param name="kolom">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatePohon(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 3-input MWArray interface to the generatePohon M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Batang
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="baris">Input argument #1</param>
+             <param name="kolom">Input argument #2</param>
+             <param name="tinggi">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatePohon(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 4-input MWArray interface to the generatePohon M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Batang
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="baris">Input argument #1</param>
+             <param name="kolom">Input argument #2</param>
+             <param name="tinggi">Input argument #3</param>
+             <param name="resolusi">Input argument #4</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatePohon(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 5-input MWArray interface to the generatePohon M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Batang
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="baris">Input argument #1</param>
+             <param name="kolom">Input argument #2</param>
+             <param name="tinggi">Input argument #3</param>
+             <param name="resolusi">Input argument #4</param>
+             <param name="figur">Input argument #5</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatePohonKelapa">
+             <summary>
+             Provides a void output, 0-input MWArrayinterface to the generatePohonKelapa
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Batang
+             </remarks>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatePohonKelapa(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 1-input MWArrayinterface to the generatePohonKelapa
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Batang
+             </remarks>
+             <param name="baris">Input argument #1</param>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatePohonKelapa(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 2-input MWArrayinterface to the generatePohonKelapa
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Batang
+             </remarks>
+             <param name="baris">Input argument #1</param>
+             <param name="kolom">Input argument #2</param>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatePohonKelapa(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 3-input MWArrayinterface to the generatePohonKelapa
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Batang
+             </remarks>
+             <param name="baris">Input argument #1</param>
+             <param name="kolom">Input argument #2</param>
+             <param name="tinggi">Input argument #3</param>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatePohonKelapa(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 4-input MWArrayinterface to the generatePohonKelapa
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Batang
+             </remarks>
+             <param name="baris">Input argument #1</param>
+             <param name="kolom">Input argument #2</param>
+             <param name="tinggi">Input argument #3</param>
+             <param name="resolusi">Input argument #4</param>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatePohonKelapa(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a void output, 5-input MWArrayinterface to the generatePohonKelapa
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Batang
+             </remarks>
+             <param name="baris">Input argument #1</param>
+             <param name="kolom">Input argument #2</param>
+             <param name="tinggi">Input argument #3</param>
+             <param name="resolusi">Input argument #4</param>
+             <param name="figur">Input argument #5</param>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatePohonKelapa(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the generatePohonKelapa
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Batang
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatePohonKelapa(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the generatePohonKelapa
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Batang
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="baris">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatePohonKelapa(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the generatePohonKelapa
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Batang
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="baris">Input argument #1</param>
+             <param name="kolom">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatePohonKelapa(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 3-input MWArray interface to the generatePohonKelapa
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Batang
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="baris">Input argument #1</param>
+             <param name="kolom">Input argument #2</param>
+             <param name="tinggi">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatePohonKelapa(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 4-input MWArray interface to the generatePohonKelapa
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Batang
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="baris">Input argument #1</param>
+             <param name="kolom">Input argument #2</param>
+             <param name="tinggi">Input argument #3</param>
+             <param name="resolusi">Input argument #4</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.generatePohonKelapa(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 5-input MWArray interface to the generatePohonKelapa
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Batang
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="baris">Input argument #1</param>
+             <param name="kolom">Input argument #2</param>
+             <param name="tinggi">Input argument #3</param>
+             <param name="resolusi">Input argument #4</param>
+             <param name="figur">Input argument #5</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.interpolasiLinier">
+             <summary>
+             Provides a single output, 0-input MWArrayinterface to the interpolasiLinier
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.interpolasiLinier(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 1-input MWArrayinterface to the interpolasiLinier
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="a">Input argument #1</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.interpolasiLinier(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the interpolasiLinier
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.interpolasiLinier(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the interpolasiLinier
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="a">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.interpolasiLinier(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray[]@,MathWorks.MATLAB.NET.Arrays.MWArray[])">
+             <summary>
+             Provides an interface for the interpolasiLinier function in which the input and
+             output
+             arguments are specified as an array of MWArrays.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of MWArray output arguments</param>
+             <param name= "argsIn">Array of MWArray input arguments</param>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mapping">
+             <summary>
+             Provides a single output, 0-input MWArrayinterface to the mapping M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             {
+             </remarks>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mapping(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 1-input MWArrayinterface to the mapping M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             {
+             </remarks>
+             <param name="latitude">Input argument #1</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mapping(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 2-input MWArrayinterface to the mapping M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             {
+             </remarks>
+             <param name="latitude">Input argument #1</param>
+             <param name="longitude">Input argument #2</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mapping(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the mapping M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             {
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mapping(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the mapping M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             {
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="latitude">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mapping(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the mapping M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             {
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="latitude">Input argument #1</param>
+             <param name="longitude">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mapping(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray[]@,MathWorks.MATLAB.NET.Arrays.MWArray[])">
+             <summary>
+             Provides an interface for the mapping function in which the input and output
+             arguments are specified as an array of MWArrays.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             {
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of MWArray output arguments</param>
+             <param name= "argsIn">Array of MWArray input arguments</param>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingMatrixtoNearestCoordinat">
+             <summary>
+             Provides a single output, 0-input MWArrayinterface to the
+             mappingMatrixtoNearestCoordinat M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingMatrixtoNearestCoordinat(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 1-input MWArrayinterface to the
+             mappingMatrixtoNearestCoordinat M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="barisMariks">Input argument #1</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingMatrixtoNearestCoordinat(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 2-input MWArrayinterface to the
+             mappingMatrixtoNearestCoordinat M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="barisMariks">Input argument #1</param>
+             <param name="kolomMatriks">Input argument #2</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingMatrixtoNearestCoordinat(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 3-input MWArrayinterface to the
+             mappingMatrixtoNearestCoordinat M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="barisMariks">Input argument #1</param>
+             <param name="kolomMatriks">Input argument #2</param>
+             <param name="latitude_in1">Input argument #3</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingMatrixtoNearestCoordinat(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 4-input MWArrayinterface to the
+             mappingMatrixtoNearestCoordinat M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="barisMariks">Input argument #1</param>
+             <param name="kolomMatriks">Input argument #2</param>
+             <param name="latitude_in1">Input argument #3</param>
+             <param name="longitude_in1">Input argument #4</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingMatrixtoNearestCoordinat(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the
+             mappingMatrixtoNearestCoordinat M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingMatrixtoNearestCoordinat(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the
+             mappingMatrixtoNearestCoordinat M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="barisMariks">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingMatrixtoNearestCoordinat(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the
+             mappingMatrixtoNearestCoordinat M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="barisMariks">Input argument #1</param>
+             <param name="kolomMatriks">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingMatrixtoNearestCoordinat(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 3-input MWArray interface to the
+             mappingMatrixtoNearestCoordinat M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="barisMariks">Input argument #1</param>
+             <param name="kolomMatriks">Input argument #2</param>
+             <param name="latitude_in1">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingMatrixtoNearestCoordinat(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 4-input MWArray interface to the
+             mappingMatrixtoNearestCoordinat M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="barisMariks">Input argument #1</param>
+             <param name="kolomMatriks">Input argument #2</param>
+             <param name="latitude_in1">Input argument #3</param>
+             <param name="longitude_in1">Input argument #4</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingMatrixtoNearestCoordinat(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray[]@,MathWorks.MATLAB.NET.Arrays.MWArray[])">
+             <summary>
+             Provides an interface for the mappingMatrixtoNearestCoordinat function in which
+             the input and output
+             arguments are specified as an array of MWArrays.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of MWArray output arguments</param>
+             <param name= "argsIn">Array of MWArray input arguments</param>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingObjek">
+             <summary>
+             Provides a single output, 0-input MWArrayinterface to the mappingObjek
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingObjek(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 1-input MWArrayinterface to the mappingObjek
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="latitude">Input argument #1</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingObjek(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 2-input MWArrayinterface to the mappingObjek
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="latitude">Input argument #1</param>
+             <param name="longitude">Input argument #2</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingObjek(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 3-input MWArrayinterface to the mappingObjek
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="latitude">Input argument #1</param>
+             <param name="longitude">Input argument #2</param>
+             <param name="latKecilMin">Input argument #3</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingObjek(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 4-input MWArrayinterface to the mappingObjek
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="latitude">Input argument #1</param>
+             <param name="longitude">Input argument #2</param>
+             <param name="latKecilMin">Input argument #3</param>
+             <param name="latKecilMax">Input argument #4</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingObjek(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 5-input MWArrayinterface to the mappingObjek
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="latitude">Input argument #1</param>
+             <param name="longitude">Input argument #2</param>
+             <param name="latKecilMin">Input argument #3</param>
+             <param name="latKecilMax">Input argument #4</param>
+             <param name="longKecilMin">Input argument #5</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingObjek(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 6-input MWArrayinterface to the mappingObjek
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="latitude">Input argument #1</param>
+             <param name="longitude">Input argument #2</param>
+             <param name="latKecilMin">Input argument #3</param>
+             <param name="latKecilMax">Input argument #4</param>
+             <param name="longKecilMin">Input argument #5</param>
+             <param name="longKecilMax">Input argument #6</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingObjek(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 7-input MWArrayinterface to the mappingObjek
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="latitude">Input argument #1</param>
+             <param name="longitude">Input argument #2</param>
+             <param name="latKecilMin">Input argument #3</param>
+             <param name="latKecilMax">Input argument #4</param>
+             <param name="longKecilMin">Input argument #5</param>
+             <param name="longKecilMax">Input argument #6</param>
+             <param name="ukuran_baris">Input argument #7</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingObjek(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 8-input MWArrayinterface to the mappingObjek
+             M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="latitude">Input argument #1</param>
+             <param name="longitude">Input argument #2</param>
+             <param name="latKecilMin">Input argument #3</param>
+             <param name="latKecilMax">Input argument #4</param>
+             <param name="longKecilMin">Input argument #5</param>
+             <param name="longKecilMax">Input argument #6</param>
+             <param name="ukuran_baris">Input argument #7</param>
+             <param name="ukuran_kolom">Input argument #8</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingObjek(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the mappingObjek M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingObjek(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the mappingObjek M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="latitude">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingObjek(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the mappingObjek M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="latitude">Input argument #1</param>
+             <param name="longitude">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingObjek(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 3-input MWArray interface to the mappingObjek M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="latitude">Input argument #1</param>
+             <param name="longitude">Input argument #2</param>
+             <param name="latKecilMin">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingObjek(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 4-input MWArray interface to the mappingObjek M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="latitude">Input argument #1</param>
+             <param name="longitude">Input argument #2</param>
+             <param name="latKecilMin">Input argument #3</param>
+             <param name="latKecilMax">Input argument #4</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingObjek(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 5-input MWArray interface to the mappingObjek M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="latitude">Input argument #1</param>
+             <param name="longitude">Input argument #2</param>
+             <param name="latKecilMin">Input argument #3</param>
+             <param name="latKecilMax">Input argument #4</param>
+             <param name="longKecilMin">Input argument #5</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingObjek(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 6-input MWArray interface to the mappingObjek M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="latitude">Input argument #1</param>
+             <param name="longitude">Input argument #2</param>
+             <param name="latKecilMin">Input argument #3</param>
+             <param name="latKecilMax">Input argument #4</param>
+             <param name="longKecilMin">Input argument #5</param>
+             <param name="longKecilMax">Input argument #6</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingObjek(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 7-input MWArray interface to the mappingObjek M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="latitude">Input argument #1</param>
+             <param name="longitude">Input argument #2</param>
+             <param name="latKecilMin">Input argument #3</param>
+             <param name="latKecilMax">Input argument #4</param>
+             <param name="longKecilMin">Input argument #5</param>
+             <param name="longKecilMax">Input argument #6</param>
+             <param name="ukuran_baris">Input argument #7</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingObjek(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 8-input MWArray interface to the mappingObjek M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="latitude">Input argument #1</param>
+             <param name="longitude">Input argument #2</param>
+             <param name="latKecilMin">Input argument #3</param>
+             <param name="latKecilMax">Input argument #4</param>
+             <param name="longKecilMin">Input argument #5</param>
+             <param name="longKecilMax">Input argument #6</param>
+             <param name="ukuran_baris">Input argument #7</param>
+             <param name="ukuran_kolom">Input argument #8</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.mappingObjek(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray[]@,MathWorks.MATLAB.NET.Arrays.MWArray[])">
+             <summary>
+             Provides an interface for the mappingObjek function in which the input and output
+             arguments are specified as an array of MWArrays.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of MWArray output arguments</param>
+             <param name= "argsIn">Array of MWArray input arguments</param>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.normalisasi">
+             <summary>
+             Provides a single output, 0-input MWArrayinterface to the normalisasi M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             {
+             </remarks>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.normalisasi(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 1-input MWArrayinterface to the normalisasi M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             {
+             </remarks>
+             <param name="latitude1">Input argument #1</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.normalisasi(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 2-input MWArrayinterface to the normalisasi M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             {
+             </remarks>
+             <param name="latitude1">Input argument #1</param>
+             <param name="longitude1">Input argument #2</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.normalisasi(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 3-input MWArrayinterface to the normalisasi M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             {
+             </remarks>
+             <param name="latitude1">Input argument #1</param>
+             <param name="longitude1">Input argument #2</param>
+             <param name="latitude2">Input argument #3</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.normalisasi(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 4-input MWArrayinterface to the normalisasi M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             {
+             </remarks>
+             <param name="latitude1">Input argument #1</param>
+             <param name="longitude1">Input argument #2</param>
+             <param name="latitude2">Input argument #3</param>
+             <param name="longitude2">Input argument #4</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.normalisasi(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 5-input MWArrayinterface to the normalisasi M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             {
+             </remarks>
+             <param name="latitude1">Input argument #1</param>
+             <param name="longitude1">Input argument #2</param>
+             <param name="latitude2">Input argument #3</param>
+             <param name="longitude2">Input argument #4</param>
+             <param name="batasRadius">Input argument #5</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.normalisasi(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the normalisasi M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             {
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.normalisasi(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the normalisasi M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             {
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="latitude1">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.normalisasi(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the normalisasi M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             {
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="latitude1">Input argument #1</param>
+             <param name="longitude1">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.normalisasi(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 3-input MWArray interface to the normalisasi M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             {
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="latitude1">Input argument #1</param>
+             <param name="longitude1">Input argument #2</param>
+             <param name="latitude2">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.normalisasi(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 4-input MWArray interface to the normalisasi M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             {
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="latitude1">Input argument #1</param>
+             <param name="longitude1">Input argument #2</param>
+             <param name="latitude2">Input argument #3</param>
+             <param name="longitude2">Input argument #4</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.normalisasi(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 5-input MWArray interface to the normalisasi M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             {
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="latitude1">Input argument #1</param>
+             <param name="longitude1">Input argument #2</param>
+             <param name="latitude2">Input argument #3</param>
+             <param name="longitude2">Input argument #4</param>
+             <param name="batasRadius">Input argument #5</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.normalisasi(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray[]@,MathWorks.MATLAB.NET.Arrays.MWArray[])">
+             <summary>
+             Provides an interface for the normalisasi function in which the input and output
+             arguments are specified as an array of MWArrays.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             {
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of MWArray output arguments</param>
+             <param name= "argsIn">Array of MWArray input arguments</param>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.pilih">
+             <summary>
+             Provides a single output, 0-input MWArrayinterface to the pilih M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ================================================
+             {
+             </remarks>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.pilih(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 1-input MWArrayinterface to the pilih M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ================================================
+             {
+             </remarks>
+             <param name="baris_in1">Input argument #1</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.pilih(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 2-input MWArrayinterface to the pilih M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ================================================
+             {
+             </remarks>
+             <param name="baris_in1">Input argument #1</param>
+             <param name="kolom_in1">Input argument #2</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.pilih(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 3-input MWArrayinterface to the pilih M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ================================================
+             {
+             </remarks>
+             <param name="baris_in1">Input argument #1</param>
+             <param name="kolom_in1">Input argument #2</param>
+             <param name="latitude">Input argument #3</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.pilih(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 4-input MWArrayinterface to the pilih M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ================================================
+             {
+             </remarks>
+             <param name="baris_in1">Input argument #1</param>
+             <param name="kolom_in1">Input argument #2</param>
+             <param name="latitude">Input argument #3</param>
+             <param name="longitude">Input argument #4</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.pilih(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the pilih M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ================================================
+             {
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.pilih(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the pilih M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ================================================
+             {
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="baris_in1">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.pilih(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the pilih M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ================================================
+             {
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="baris_in1">Input argument #1</param>
+             <param name="kolom_in1">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.pilih(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 3-input MWArray interface to the pilih M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ================================================
+             {
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="baris_in1">Input argument #1</param>
+             <param name="kolom_in1">Input argument #2</param>
+             <param name="latitude">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.pilih(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 4-input MWArray interface to the pilih M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             ================================================
+             {
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="baris_in1">Input argument #1</param>
+             <param name="kolom_in1">Input argument #2</param>
+             <param name="latitude">Input argument #3</param>
+             <param name="longitude">Input argument #4</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.pilih(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray[]@,MathWorks.MATLAB.NET.Arrays.MWArray[])">
+             <summary>
+             Provides an interface for the pilih function in which the input and output
+             arguments are specified as an array of MWArrays.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             ================================================
+             {
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of MWArray output arguments</param>
+             <param name= "argsIn">Array of MWArray input arguments</param>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.seleksiBF">
+             <summary>
+             Provides a single output, 0-input MWArrayinterface to the seleksiBF M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.seleksiBF(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 1-input MWArrayinterface to the seleksiBF M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="barisKoma">Input argument #1</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.seleksiBF(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 2-input MWArrayinterface to the seleksiBF M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="barisKoma">Input argument #1</param>
+             <param name="kolomKoma">Input argument #2</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.seleksiBF(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the seleksiBF M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.seleksiBF(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the seleksiBF M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="barisKoma">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.seleksiBF(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the seleksiBF M-function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="barisKoma">Input argument #1</param>
+             <param name="kolomKoma">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.seleksiBF(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray[]@,MathWorks.MATLAB.NET.Arrays.MWArray[])">
+             <summary>
+             Provides an interface for the seleksiBF function in which the input and output
+             arguments are specified as an array of MWArrays.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of MWArray output arguments</param>
+             <param name= "argsIn">Array of MWArray input arguments</param>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.seleksiRHD">
+             <summary>
+             Provides a single output, 0-input MWArrayinterface to the seleksiRHD M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             round half down 0.0 0.1 0.2 0.3 0.4 0.5 dibulatkan ke  ke 0
+             0.6 0.7 0.8 0.9 1.0     dibulatkan ke  ke 1
+             </remarks>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.seleksiRHD(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 1-input MWArrayinterface to the seleksiRHD M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             round half down 0.0 0.1 0.2 0.3 0.4 0.5 dibulatkan ke  ke 0
+             0.6 0.7 0.8 0.9 1.0     dibulatkan ke  ke 1
+             </remarks>
+             <param name="barisKoma">Input argument #1</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.seleksiRHD(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 2-input MWArrayinterface to the seleksiRHD M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             round half down 0.0 0.1 0.2 0.3 0.4 0.5 dibulatkan ke  ke 0
+             0.6 0.7 0.8 0.9 1.0     dibulatkan ke  ke 1
+             </remarks>
+             <param name="barisKoma">Input argument #1</param>
+             <param name="kolomKoma">Input argument #2</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.seleksiRHD(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the seleksiRHD M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             round half down 0.0 0.1 0.2 0.3 0.4 0.5 dibulatkan ke  ke 0
+             0.6 0.7 0.8 0.9 1.0     dibulatkan ke  ke 1
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.seleksiRHD(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the seleksiRHD M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             round half down 0.0 0.1 0.2 0.3 0.4 0.5 dibulatkan ke  ke 0
+             0.6 0.7 0.8 0.9 1.0     dibulatkan ke  ke 1
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="barisKoma">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.seleksiRHD(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the seleksiRHD M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             round half down 0.0 0.1 0.2 0.3 0.4 0.5 dibulatkan ke  ke 0
+             0.6 0.7 0.8 0.9 1.0     dibulatkan ke  ke 1
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="barisKoma">Input argument #1</param>
+             <param name="kolomKoma">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.seleksiRHD(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray[]@,MathWorks.MATLAB.NET.Arrays.MWArray[])">
+             <summary>
+             Provides an interface for the seleksiRHD function in which the input and output
+             arguments are specified as an array of MWArrays.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             round half down 0.0 0.1 0.2 0.3 0.4 0.5 dibulatkan ke  ke 0
+             0.6 0.7 0.8 0.9 1.0     dibulatkan ke  ke 1
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of MWArray output arguments</param>
+             <param name= "argsIn">Array of MWArray input arguments</param>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiDuaInputan">
+             <summary>
+             Provides a single output, 0-input MWArrayinterface to the visualisasiDuaInputan
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiDuaInputan(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 1-input MWArrayinterface to the visualisasiDuaInputan
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="nama">Input argument #1</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiDuaInputan(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 2-input MWArrayinterface to the visualisasiDuaInputan
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude1">Input argument #2</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiDuaInputan(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 3-input MWArrayinterface to the visualisasiDuaInputan
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude1">Input argument #2</param>
+             <param name="longitude1">Input argument #3</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiDuaInputan(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 4-input MWArrayinterface to the visualisasiDuaInputan
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude1">Input argument #2</param>
+             <param name="longitude1">Input argument #3</param>
+             <param name="latitude2">Input argument #4</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiDuaInputan(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 5-input MWArrayinterface to the visualisasiDuaInputan
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude1">Input argument #2</param>
+             <param name="longitude1">Input argument #3</param>
+             <param name="latitude2">Input argument #4</param>
+             <param name="longitude2">Input argument #5</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiDuaInputan(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 6-input MWArrayinterface to the visualisasiDuaInputan
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude1">Input argument #2</param>
+             <param name="longitude1">Input argument #3</param>
+             <param name="latitude2">Input argument #4</param>
+             <param name="longitude2">Input argument #5</param>
+             <param name="batasRadius">Input argument #6</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiDuaInputan(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 7-input MWArrayinterface to the visualisasiDuaInputan
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude1">Input argument #2</param>
+             <param name="longitude1">Input argument #3</param>
+             <param name="latitude2">Input argument #4</param>
+             <param name="longitude2">Input argument #5</param>
+             <param name="batasRadius">Input argument #6</param>
+             <param name="seleksi">Input argument #7</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiDuaInputan(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 8-input MWArrayinterface to the visualisasiDuaInputan
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude1">Input argument #2</param>
+             <param name="longitude1">Input argument #3</param>
+             <param name="latitude2">Input argument #4</param>
+             <param name="longitude2">Input argument #5</param>
+             <param name="batasRadius">Input argument #6</param>
+             <param name="seleksi">Input argument #7</param>
+             <param name="interpolasi">Input argument #8</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiDuaInputan(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 9-input MWArrayinterface to the visualisasiDuaInputan
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude1">Input argument #2</param>
+             <param name="longitude1">Input argument #3</param>
+             <param name="latitude2">Input argument #4</param>
+             <param name="longitude2">Input argument #5</param>
+             <param name="batasRadius">Input argument #6</param>
+             <param name="seleksi">Input argument #7</param>
+             <param name="interpolasi">Input argument #8</param>
+             <param name="pohon">Input argument #9</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiDuaInputan(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 10-input MWArrayinterface to the visualisasiDuaInputan
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude1">Input argument #2</param>
+             <param name="longitude1">Input argument #3</param>
+             <param name="latitude2">Input argument #4</param>
+             <param name="longitude2">Input argument #5</param>
+             <param name="batasRadius">Input argument #6</param>
+             <param name="seleksi">Input argument #7</param>
+             <param name="interpolasi">Input argument #8</param>
+             <param name="pohon">Input argument #9</param>
+             <param name="deteksiAir">Input argument #10</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiDuaInputan(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the visualisasiDuaInputan
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiDuaInputan(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the visualisasiDuaInputan
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="nama">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiDuaInputan(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the visualisasiDuaInputan
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude1">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiDuaInputan(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 3-input MWArray interface to the visualisasiDuaInputan
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude1">Input argument #2</param>
+             <param name="longitude1">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiDuaInputan(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 4-input MWArray interface to the visualisasiDuaInputan
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude1">Input argument #2</param>
+             <param name="longitude1">Input argument #3</param>
+             <param name="latitude2">Input argument #4</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiDuaInputan(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 5-input MWArray interface to the visualisasiDuaInputan
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude1">Input argument #2</param>
+             <param name="longitude1">Input argument #3</param>
+             <param name="latitude2">Input argument #4</param>
+             <param name="longitude2">Input argument #5</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiDuaInputan(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 6-input MWArray interface to the visualisasiDuaInputan
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude1">Input argument #2</param>
+             <param name="longitude1">Input argument #3</param>
+             <param name="latitude2">Input argument #4</param>
+             <param name="longitude2">Input argument #5</param>
+             <param name="batasRadius">Input argument #6</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiDuaInputan(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 7-input MWArray interface to the visualisasiDuaInputan
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude1">Input argument #2</param>
+             <param name="longitude1">Input argument #3</param>
+             <param name="latitude2">Input argument #4</param>
+             <param name="longitude2">Input argument #5</param>
+             <param name="batasRadius">Input argument #6</param>
+             <param name="seleksi">Input argument #7</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiDuaInputan(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 8-input MWArray interface to the visualisasiDuaInputan
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude1">Input argument #2</param>
+             <param name="longitude1">Input argument #3</param>
+             <param name="latitude2">Input argument #4</param>
+             <param name="longitude2">Input argument #5</param>
+             <param name="batasRadius">Input argument #6</param>
+             <param name="seleksi">Input argument #7</param>
+             <param name="interpolasi">Input argument #8</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiDuaInputan(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 9-input MWArray interface to the visualisasiDuaInputan
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude1">Input argument #2</param>
+             <param name="longitude1">Input argument #3</param>
+             <param name="latitude2">Input argument #4</param>
+             <param name="longitude2">Input argument #5</param>
+             <param name="batasRadius">Input argument #6</param>
+             <param name="seleksi">Input argument #7</param>
+             <param name="interpolasi">Input argument #8</param>
+             <param name="pohon">Input argument #9</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiDuaInputan(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 10-input MWArray interface to the visualisasiDuaInputan
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude1">Input argument #2</param>
+             <param name="longitude1">Input argument #3</param>
+             <param name="latitude2">Input argument #4</param>
+             <param name="longitude2">Input argument #5</param>
+             <param name="batasRadius">Input argument #6</param>
+             <param name="seleksi">Input argument #7</param>
+             <param name="interpolasi">Input argument #8</param>
+             <param name="pohon">Input argument #9</param>
+             <param name="deteksiAir">Input argument #10</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiDuaInputan(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray[]@,MathWorks.MATLAB.NET.Arrays.MWArray[])">
+             <summary>
+             Provides an interface for the visualisasiDuaInputan function in which the input
+             and output
+             arguments are specified as an array of MWArrays.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of MWArray output arguments</param>
+             <param name= "argsIn">Array of MWArray input arguments</param>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiRadius">
+             <summary>
+             Provides a single output, 0-input MWArrayinterface to the visualisasiRadius
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiRadius(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 1-input MWArrayinterface to the visualisasiRadius
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="nama">Input argument #1</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiRadius(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 2-input MWArrayinterface to the visualisasiRadius
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude">Input argument #2</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiRadius(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 3-input MWArrayinterface to the visualisasiRadius
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude">Input argument #2</param>
+             <param name="longitude">Input argument #3</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiRadius(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 4-input MWArrayinterface to the visualisasiRadius
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude">Input argument #2</param>
+             <param name="longitude">Input argument #3</param>
+             <param name="radius">Input argument #4</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiRadius(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 5-input MWArrayinterface to the visualisasiRadius
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude">Input argument #2</param>
+             <param name="longitude">Input argument #3</param>
+             <param name="radius">Input argument #4</param>
+             <param name="seleksi">Input argument #5</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiRadius(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 6-input MWArrayinterface to the visualisasiRadius
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude">Input argument #2</param>
+             <param name="longitude">Input argument #3</param>
+             <param name="radius">Input argument #4</param>
+             <param name="seleksi">Input argument #5</param>
+             <param name="interpolasi">Input argument #6</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiRadius(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 7-input MWArrayinterface to the visualisasiRadius
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude">Input argument #2</param>
+             <param name="longitude">Input argument #3</param>
+             <param name="radius">Input argument #4</param>
+             <param name="seleksi">Input argument #5</param>
+             <param name="interpolasi">Input argument #6</param>
+             <param name="pohon">Input argument #7</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiRadius(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 8-input MWArrayinterface to the visualisasiRadius
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude">Input argument #2</param>
+             <param name="longitude">Input argument #3</param>
+             <param name="radius">Input argument #4</param>
+             <param name="seleksi">Input argument #5</param>
+             <param name="interpolasi">Input argument #6</param>
+             <param name="pohon">Input argument #7</param>
+             <param name="deteksiAir">Input argument #8</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiRadius(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the visualisasiRadius
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiRadius(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the visualisasiRadius
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="nama">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiRadius(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the visualisasiRadius
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiRadius(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 3-input MWArray interface to the visualisasiRadius
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude">Input argument #2</param>
+             <param name="longitude">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiRadius(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 4-input MWArray interface to the visualisasiRadius
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude">Input argument #2</param>
+             <param name="longitude">Input argument #3</param>
+             <param name="radius">Input argument #4</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiRadius(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 5-input MWArray interface to the visualisasiRadius
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude">Input argument #2</param>
+             <param name="longitude">Input argument #3</param>
+             <param name="radius">Input argument #4</param>
+             <param name="seleksi">Input argument #5</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiRadius(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 6-input MWArray interface to the visualisasiRadius
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude">Input argument #2</param>
+             <param name="longitude">Input argument #3</param>
+             <param name="radius">Input argument #4</param>
+             <param name="seleksi">Input argument #5</param>
+             <param name="interpolasi">Input argument #6</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiRadius(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 7-input MWArray interface to the visualisasiRadius
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude">Input argument #2</param>
+             <param name="longitude">Input argument #3</param>
+             <param name="radius">Input argument #4</param>
+             <param name="seleksi">Input argument #5</param>
+             <param name="interpolasi">Input argument #6</param>
+             <param name="pohon">Input argument #7</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiRadius(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 8-input MWArray interface to the visualisasiRadius
+             M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="nama">Input argument #1</param>
+             <param name="latitude">Input argument #2</param>
+             <param name="longitude">Input argument #3</param>
+             <param name="radius">Input argument #4</param>
+             <param name="seleksi">Input argument #5</param>
+             <param name="interpolasi">Input argument #6</param>
+             <param name="pohon">Input argument #7</param>
+             <param name="deteksiAir">Input argument #8</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.visualisasiRadius(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray[]@,MathWorks.MATLAB.NET.Arrays.MWArray[])">
+             <summary>
+             Provides an interface for the visualisasiRadius function in which the input and
+             output
+             arguments are specified as an array of MWArrays.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             if (zmin&lt;=0)
+             cm(1,:)= [1 1 1];   laut
+             end;
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of MWArray output arguments</param>
+             <param name= "argsIn">Array of MWArray input arguments</param>
+            
+        </member>
+        <member name="M:TarechaSpatial.TarechaSpatial.WaitForFiguresToDie">
+             <summary>
+             This method will cause a MATLAB figure window to behave as a modal dialog box.
+             The method will not return until all the figure windows associated with this
+             component have been closed.
+             </summary>
+             <remarks>
+             An application should only call this method when required to keep the
+             MATLAB figure window from disappearing.  Other techniques, such as calling
+             Console.ReadLine() from the application should be considered where
+             possible.</remarks>
+            
+        </member>
+    </members>
+</doc>
